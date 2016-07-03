@@ -25,10 +25,28 @@ h1 {
 	color: #ffffff
 }
 
+.btn:hover {
+	background-color: #6d9a05;
+	color: #ffffff
+}
+
+.btn:active {
+	background-color: #8d9973;
+	color: #ffffff
+}
+
+
 #logo img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#staffheader {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 #check-availability{
