@@ -1,6 +1,6 @@
 body {
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
-	background-image: url("img/american-flag-1.jpg");
+	background-image: url("american-flag-1.jpg");
 	background-size: 100%;
 }
 
@@ -30,7 +30,7 @@ h1 {
 .btn {
 	background-color: #94D500;
 	color: #ffffff
-	
+
 }
 
 .btn:hover {
