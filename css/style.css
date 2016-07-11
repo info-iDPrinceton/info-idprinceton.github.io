@@ -1,0 +1,246 @@
+body {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	background-image: url("../images/background.gif");
+	//background-size: 100%;
+}
+
+h1 {
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.radio {
+	margin-left: 100px;
+}
+.top-buffer {
+  margin-bottom: 50px;
+}
+
+.panel-heading {
+	text-align: center;
+	font-size: 18px;
+}
+
+.panel-body {
+	text-align: center;
+}
+
+.btn {
+	text-align: center;
+	width: 25%;
+	background-color: #94D500;
+	color: #ffffff
+
+}
+
+.btn:hover {
+	text-align: center;
+	width: 25%;
+	background-color: #6d9a05;
+	color: #ffffff
+}
+
+.btn:active {
+	text-align: center;
+	width: 25%;
+	background-color: #8d9973;
+	color: #ffffff
+}
+
+.btn-block
+{
+	text-align: center;
+	width: 25%;
+	background-color: #94D500;
+	color: #ffffff
+		
+}
+
+#ballot{
+	background-color:#ffffff;
+}
+
+#logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#staffheader {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#check-availability{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#check-availability input{
+    border: 0;
+    box-shadow: none;
+}
+
+#check-availability button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#check-availability button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#check-availability .glyphicon-search{
+    font-size: 23px;
+}
+
+#top
+{
+	margin: 0 auto;
+	text-align: center;
+	background: #f05b07;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.candle
+{
+	
+	width: 4%;
+}
+
+.center
+{
+	margin: auto;
+	text-align: center;
+}
+
+.button
+{
+
+	
+}
+
+
+//containers
+#top
+{
+	width: 80%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin:auto;
+	text-align: center;
+	background-color: #f05b07;
+}
+
+#top img
+{
+	width: 60%;
+}
+
+.candle
+{
+	width: 3%;
+}
+
+#candleContainer
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin:auto;
+	text-align: center;
+	background-color: #aaaaaa;
+}
+
+
+
+#voteContainer
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+	text-align: center;
+	background: #f05b07;
+}
+
+#voteContainer img, #newContainer img
+{
+	width: 20%;
+}
+
+ #clueContainer img
+ {
+	width: 35%;
+ }
+#newContainer
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+	text-align: center;
+	background-color: #aaaaaa;
+}
+
+#newContainer p
+{
+	margin: auto;
+	padding-bottom: 20px;
+	text-align: left;
+	width: 80%;
+}
+
+#leftStaff
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	float: left;
+	text-align: left;
+}
+
+#rightStaff
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	float: right;
+	text-align: left;
+}
+
+#clueContainer
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+	text-align: center;
+	background-color: #f05b07;
+}
+
+#ruleContainer
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+	text-align: center;
+	background-color: #aaaaaa;	
+}
+
+
+.left-align
+{
+	text-align: left;
+}
