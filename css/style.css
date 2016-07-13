@@ -1,5 +1,5 @@
 body {
-	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 	background-image: url("../images/background.gif");
 	//background-size: 100%;
 }
@@ -168,7 +168,7 @@ h1 {
 
 
 
-#voteContainer
+#voteContainer, #videoContainer
 {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -186,7 +186,8 @@ h1 {
  {
 	width: 35%;
  }
-#newContainer
+ 
+#newContainer, #scanContainer
 {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -194,6 +195,16 @@ h1 {
 	text-align: center;
 	background-color: #aaaaaa;
 }
+
+
+
+
+#videoContainer img, #scanContainer img
+{
+	width: 20%;
+}
+
+
 
 #newContainer p
 {
@@ -239,6 +250,18 @@ h1 {
 	background-color: #aaaaaa;	
 }
 
+#clueboard
+{
+	display: block;
+	text-align: left;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#clueboard ol
+{
+	margin-left: 20%;
+}
 
 .left-align
 {
