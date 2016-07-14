@@ -11,6 +11,15 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	font-size: 100px;
+	text-align: center;
+}
+
+p {
+	font-size:18px;
+}
+
 .radio {
 	margin-left: 100px;
 }
@@ -55,7 +64,7 @@ h1 {
 	width: 25%;
 	background-color: #94D500;
 	color: #ffffff
-		
+
 }
 
 #ballot{
@@ -119,8 +128,14 @@ h1 {
 
 .candle
 {
-	
+
 	width: 4%;
+}
+
+.number{
+
+	width: 8%;
+	padding-right: 20px;
 }
 
 .center
@@ -132,7 +147,7 @@ h1 {
 .button
 {
 
-	
+
 }
 
 
@@ -157,7 +172,7 @@ h1 {
 	width: 3%;
 }
 
-#candleContainer
+#map
 {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -166,7 +181,14 @@ h1 {
 	background-color: #aaaaaa;
 }
 
-
+#candleContainer
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin:auto;
+	text-align: center;
+	background-color: #f05b07;
+}
 
 #voteContainer, #videoContainer
 {
@@ -186,7 +208,7 @@ h1 {
  {
 	width: 35%;
  }
- 
+
 #newContainer, #scanContainer
 {
 	padding-top: 20px;
@@ -218,7 +240,7 @@ h1 {
 {
 	padding-left: 20px;
 	padding-right: 20px;
-	
+
 	float: left;
 	text-align: left;
 }
@@ -227,7 +249,7 @@ h1 {
 {
 	padding-left: 20px;
 	padding-right: 20px;
-	
+
 	float: right;
 	text-align: left;
 }
@@ -247,15 +269,15 @@ h1 {
 	padding-bottom: 20px;
 	margin: auto;
 	text-align: center;
-	background-color: #aaaaaa;	
+	background-color: #aaaaaa;
 }
 
 #clueboard
 {
 	display: block;
-	text-align: left;
-	margin-left: 20%;
-	margin-right: 20%;
+	text-align: center;
+	margin-left: 30%;
+	margin-right: 30%;
 }
 
 #clueboard ol
