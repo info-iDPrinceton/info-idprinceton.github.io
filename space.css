@@ -1,0 +1,56 @@
+h1 {
+	font-family: 'Josefin Sans', sans-serif !important;
+	font-size: 570px;
+	color: #ffffff;
+}
+
+h2 {
+	font-family: 'Inconsolata', monospace !important;
+}
+
+h3 {
+	font-family: 'Bangers', cursive !important;
+}
+
+h4 {
+	font-family: 'Inconsolata', monospace !important;
+}
+
+p {
+	font-family: 'Raleway', sans-serif !important;
+	font-size: 18px;
+}
+
+.content {
+	text-align: center;
+}
+
+#banner {
+	margin-top: 400px;
+	padding-top: 1px;
+	background-color: #701818;
+}
+
+#body {
+	height: 100%;
+	background-color: #e9e6ce;
+	border-color: #701818;
+	border-style: solid;
+	border-width: 7px;
+}
+
+#blackout {
+	height: 100vh;
+	padding-top: 20px;
+	background-color: #000000;
+}
+
+#content {
+	margin-top: 50px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+#footer {
+	text-align: right;
+}
