@@ -48,6 +48,13 @@ p {
 	background-color: #000000;
 }
 
+#recap {
+	height: 100vh;
+	padding-top: 20px;
+	background-image: url("galaxy.jpg");
+
+}
+
 #content {
 	margin-top: 50px;
 	padding-left: 200px;
