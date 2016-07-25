@@ -43,9 +43,9 @@ p {
 }
 
 #blackout {
-	height: 100vh;
+	height: 100%;
 	padding-top: 20px;
-	background-color: #000000;
+	background-color: #579960;
 }
 
 #recap {
