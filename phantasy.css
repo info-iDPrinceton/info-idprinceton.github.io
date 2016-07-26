@@ -41,6 +41,18 @@ a:active {
 	text-align: center;
 }
 
+.banner {
+	position: relative;
+}
+
+.dead {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 #header {
 	padding-top: 10px;
 }
@@ -52,9 +64,7 @@ a:active {
 }
 
 #factions {
-    padding-left: 200px;
+	padding-left: 200px;
 	padding-right: 200px;
-	color: #ffffff;
-    font-family: 'Bitter', serif !important;
-    font-size: 18px;
+	padding-bottom: 100px;
 }
