@@ -50,3 +50,11 @@ a:active {
 	padding-right: 200px;
 	color: #ffffff;
 }
+
+#factions {
+    padding-left: 200px;
+	padding-right: 200px;
+	color: #ffffff;
+    font-family: 'Bitter', serif !important;
+    font-size: 18px;
+}
