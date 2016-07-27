@@ -69,3 +69,20 @@ a:active {
 	padding-right: 200px;
 	padding-bottom: 100px;
 }
+
+
+
+@media (max-width: 978px) {
+	#story {
+		padding-left: 20px;
+		padding-right: 20px;
+		color: #ffffff;
+	}
+
+	#factions {
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 10px;
+	}
+
+}
