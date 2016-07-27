@@ -58,6 +58,10 @@ a:active {
 	padding-top: 10px;
 }
 
+#map{
+	height: 800px;
+}
+
 #story {
 	padding-left: 200px;
 	padding-right: 200px;
@@ -77,6 +81,10 @@ a:active {
 		padding-left: 20px;
 		padding-right: 20px;
 		color: #ffffff;
+	}
+
+	#map {
+		height: 200px;
 	}
 
 	#factions {
