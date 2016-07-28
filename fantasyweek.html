@@ -16,7 +16,8 @@
         <!-- Latest compiled JavaScript -->
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <!--Fonts-->
-        <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700|Cinzel:400,900' rel='stylesheet' type='text/css'>  </head>
+        <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700|Cinzel:400,900' rel='stylesheet' type='text/css'>
+	
     </head>
 
 <body>
@@ -32,7 +33,6 @@
 
         <div id="nav">
             <a href="factions.html">Factions</a>
-
         </div>
 
         <div id="story">
@@ -47,8 +47,29 @@
             </p>
             <h1>Lay of the Land</h1>
             <p>Click to Enlarge</p>
-            <a href="WedPM.png"><img id="map" src="WedPM.png"></a>
-            <br>
+					
+					  <map name="hyperlinked_map">
+							  <area shape="rect" coords="177,280,215,350" href="factions.html#sloth" target="_self">
+								<area shape="rect" coords="310,220,350,290" href="factions.html#potus" target="_self">
+								<area shape="rect" coords="485,220,530,290" href="factions.html#blank" target="_self">
+								<area shape="rect" coords="630,60,675,130" href="factions.html#spacejam" target="_self">
+								<area shape="rect" coords="290,380,335,450" href="factions.html#bolt" target="_self">
+								<area shape="rect" coords="430,430,475,500" href="factions.html#shmog" target="_self">
+								<area shape="rect" coords="580,315,625,385" href="factions.html#ddog" target="_self">
+								<area shape="rect" coords="680,150,725,220" href="factions.html#stitch" target="_self">
+								<area shape="rect" coords="750,220,795,300" href="factions.html#nash" target="_self">
+								<area shape="rect" coords="275,475,315,545" href="factions.html#hatter" target="_self">
+								<area shape="rect" coords="375,550,420,625" href="factions.html#mangoes" target="_self">
+								<area shape="rect" coords="500,640,540,710" href="factions.html#ape" target="_self">
+								<area shape="rect" coords="520,510,560,580" href="factions.html#essbee" target="_self">
+								<area shape="rect" coords="640,435,685,510" href="factions.html#dash" target="_self">
+								<area shape="rect" coords="760,345,800,415" href="factions.html#jumbo" target="_self">
+								<area shape="rect" coords="900,400,940,470" href="factions.html#hawke" target="_self">
+					  </map>
+					
+					<a href="WedPM.png"><img id="map" src="WedPM.png" usemap="#hyperlinked_map"></a>
+					
+					  <br>
             <br>
             <h1>Wednesday PM</h1>
             <p>
@@ -168,7 +189,8 @@
                 <br>
                 <b>Vote wisely young campers. The fate of the kingdom lays in your hands.</b></p>
             </p>
-    </div>
+    		</div>
 
     </div>
+
 </body>
