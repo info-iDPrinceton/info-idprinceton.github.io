@@ -1,19 +1,20 @@
 body {
-		background-image: url('bg.png');
+		background-image: url('princess_bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
 		background-size: cover;
 }
 
 h1 {
-	font-family: 'Cinzel', serif !important;
+	font-family: 'Luckiest Guy', cursive !important;
 	color: #ffffff;
+    text-shadow: 2px 2px #ff6699;
 }
 
 p {
 	font-family: 'Bitter', serif !important;
 	font-size: 18px;
-	color: #ffffff;
+	color: #ff6699;
 }
 
 /* LINKS */
@@ -69,8 +70,8 @@ a:active {
 }
 
 #factions {
-	padding-left: 200px;
-	padding-right: 200px;
+	padding-left: 400px;
+	padding-right: 400px;
 	padding-bottom: 100px;
 }
 
